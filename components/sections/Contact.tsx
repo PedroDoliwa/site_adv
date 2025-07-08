@@ -7,9 +7,10 @@ export default function Contact() {
     <section id="contact" className="py-16 bg-slate-900 text-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold mb-4">Contact Us Today</h2>
+          <h2 className="text-4xl font-bold mb-4">Entre em contato</h2>
           <p className="text-xl text-slate-300">
-            Ready to discuss your legal needs? We're here to help.
+            Pronto para discutir suas necessidades jurídicas? Estamos aqui para
+            ajudar.{" "}
           </p>
         </div>
 
@@ -20,16 +21,16 @@ export default function Contact() {
                 <div className="p-2 bg-amber-600 rounded-lg">
                   <Phone className="h-6 w-6 text-white" />
                 </div>
-                <CardTitle className="text-white">Call Us</CardTitle>
+                <CardTitle className="text-white">Ligue para nós</CardTitle>
               </div>
             </CardHeader>
             <CardContent>
               <p className="text-2xl font-bold text-amber-400 mb-2">
                 (555) 123-LEGAL
               </p>
-              <p className="text-slate-300">Available 24/7 for emergencies</p>
+              <p className="text-slate-300">Disponível 24/7 para emergências</p>
               <Button className="mt-4 bg-amber-600 hover:bg-amber-700 w-full">
-                Call Now
+                Ligue agora
               </Button>
             </CardContent>
           </Card>
@@ -40,14 +41,14 @@ export default function Contact() {
                 <div className="p-2 bg-amber-600 rounded-lg">
                   <Mail className="h-6 w-6 text-white" />
                 </div>
-                <CardTitle className="text-white">Email Us</CardTitle>
+                <CardTitle className="text-white">Nosso Email</CardTitle>
               </div>
             </CardHeader>
             <CardContent>
               <p className="text-amber-400 mb-2">info@sterlinglaw.com</p>
-              <p className="text-slate-300">We respond within 24 hours</p>
+              <p className="text-slate-300">Nós respondemos em 24 horas</p>
               <Button className="mt-4 bg-amber-600 hover:bg-amber-700 w-full">
-                Send Email
+                Envie um Email
               </Button>
             </CardContent>
           </Card>
@@ -58,17 +59,15 @@ export default function Contact() {
                 <div className="p-2 bg-amber-600 rounded-lg">
                   <Clock className="h-6 w-6 text-white" />
                 </div>
-                <CardTitle className="text-white">
-                  Schedule Consultation
-                </CardTitle>
+                <CardTitle className="text-white">Agendar Consulta </CardTitle>
               </div>
             </CardHeader>
             <CardContent>
               <p className="text-slate-300 mb-4">
-                Free initial consultation available
+                Consulta inicial gratuita disponível
               </p>
               <Button className="bg-amber-600 hover:bg-amber-700 w-full">
-                Book Appointment
+                Agendar consulta
               </Button>
             </CardContent>
           </Card>
@@ -78,7 +77,7 @@ export default function Contact() {
           <div className="inline-flex items-center space-x-2 bg-amber-600 text-white px-6 py-3 rounded-lg">
             <Shield className="h-5 w-5" />
             <span className="font-semibold">
-              Free Consultation - No Obligation
+              Consulta gratuita - sem compromisso{" "}
             </span>
           </div>
         </div>

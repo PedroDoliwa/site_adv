@@ -8,23 +8,23 @@ export default function Hero() {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
             <h2 className="text-5xl font-bold mb-6 leading-tight">
-              Experienced Legal Representation You Can Trust
+              Representação jurídica experiente em que você pode confiar{" "}
             </h2>
             <p className="text-xl mb-8 text-slate-200">
-              With over 25 years of combined experience, Sterling & Associates
-              provides comprehensive legal services to individuals and
-              businesses throughout the greater metropolitan area.
+              Com mais de 25 anos de experiência combinada, a Sterling &
+              Associates oferece serviços jurídicos abrangentes a pessoas
+              físicas e empresas em toda a região metropolitana.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button size="lg" className="bg-amber-600 hover:bg-amber-700">
-                Schedule Consultation
+                Agendar Consulta
               </Button>
               <Button
                 size="lg"
                 variant="outline"
                 className="border-white text-white hover:bg-white hover:text-slate-900"
               >
-                Learn More
+                Saber mais
               </Button>
             </div>
           </div>

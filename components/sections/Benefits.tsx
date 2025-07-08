@@ -6,10 +6,10 @@ export default function Benefits() {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold text-slate-900 mb-4">
-            Why Choose Sterling & Associates
+            Por que escolher Sterling & Associates{" "}
           </h2>
           <p className="text-xl text-slate-600">
-            Experience the difference that dedicated legal representation makes
+            Experimente a diferença que a representação jurídica dedicada faz{" "}
           </p>
         </div>
 
@@ -18,10 +18,12 @@ export default function Benefits() {
             <div className="bg-amber-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
               <Award className="h-8 w-8 text-white" />
             </div>
-            <h3 className="text-xl font-semibold mb-2">25+ Years Experience</h3>
+            <h3 className="text-xl font-semibold mb-2">
+              +25 anos de experiência
+            </h3>
             <p className="text-slate-600">
-              Decades of combined legal experience across multiple practice
-              areas
+              Décadas de experiência jurídica combinada em diversas áreas de
+              atuação
             </p>
           </div>
 
@@ -29,10 +31,12 @@ export default function Benefits() {
             <div className="bg-amber-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
               <Users className="h-8 w-8 text-white" />
             </div>
-            <h3 className="text-xl font-semibold mb-2">Personalized Service</h3>
+            <h3 className="text-xl font-semibold mb-2">
+              Atendimento Personalizado
+            </h3>
             <p className="text-slate-600">
-              Individual attention and customized legal strategies for each
-              client
+              Atenção individualizada e estratégias jurídicas personalizadas
+              para cada cliente
             </p>
           </div>
 
@@ -40,9 +44,11 @@ export default function Benefits() {
             <div className="bg-amber-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
               <Shield className="h-8 w-8 text-white" />
             </div>
-            <h3 className="text-xl font-semibold mb-2">Proven Results</h3>
+            <h3 className="text-xl font-semibold mb-2">
+              Resultados comprovados
+            </h3>
             <p className="text-slate-600">
-              Track record of successful outcomes and satisfied clients
+              Histórico de resultados bem-sucedidos e clientes satisfeitos{" "}
             </p>
           </div>
 
@@ -50,10 +56,10 @@ export default function Benefits() {
             <div className="bg-amber-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
               <Clock className="h-8 w-8 text-white" />
             </div>
-            <h3 className="text-xl font-semibold mb-2">24/7 Availability</h3>
+            <h3 className="text-xl font-semibold mb-2">24/7 Disponibilidade</h3>
             <p className="text-slate-600">
-              Emergency consultations and responsive communication when you need
-              us
+              Consultas de emergência e comunicação ágil quando você precisar de
+              nós
             </p>
           </div>
         </div>
@@ -62,17 +68,17 @@ export default function Benefits() {
           <div className="grid md:grid-cols-3 gap-8 text-center">
             <div>
               <div className="text-4xl font-bold text-amber-600 mb-2">500+</div>
-              <div className="text-slate-600">Cases Won</div>
+              <div className="text-slate-600">Casos vencidos</div>
             </div>
             <div>
               <div className="text-4xl font-bold text-amber-600 mb-2">
-                $50M+
+                R$50M+
               </div>
-              <div className="text-slate-600">Recovered for Clients</div>
+              <div className="text-slate-600">Recuperado para Clientes</div>
             </div>
             <div>
               <div className="text-4xl font-bold text-amber-600 mb-2">98%</div>
-              <div className="text-slate-600">Client Satisfaction</div>
+              <div className="text-slate-600">Satisfação do cliente</div>
             </div>
           </div>
         </div>

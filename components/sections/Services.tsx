@@ -13,10 +13,10 @@ export default function Services() {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold text-slate-900 mb-4">
-            Our Practice Areas
+            Áreas de Atuação
           </h2>
           <p className="text-xl text-slate-600">
-            Comprehensive legal services tailored to your needs
+            Serviços jurídicos completos e adaptados às suas necessidades{" "}
           </p>
         </div>
 
@@ -27,14 +27,14 @@ export default function Services() {
                 <div className="p-2 bg-amber-100 rounded-lg">
                   <Car className="h-6 w-6 text-amber-600" />
                 </div>
-                <CardTitle>Personal Injury</CardTitle>
+                <CardTitle>Lesões Pessoais</CardTitle>
               </div>
             </CardHeader>
             <CardContent>
               <CardDescription>
-                Auto accidents, slip and fall, medical malpractice, and wrongful
-                death cases. We fight for maximum compensation for your
-                injuries.
+                Acidentes automobilísticos, escorregões e quedas, negligência
+                médica e casos de morte injusta. Lutamos pela indenização máxima
+                pelos seus ferimentos.
               </CardDescription>
             </CardContent>
           </Card>
@@ -45,14 +45,14 @@ export default function Services() {
                 <div className="p-2 bg-amber-100 rounded-lg">
                   <Briefcase className="h-6 w-6 text-amber-600" />
                 </div>
-                <CardTitle>Business Law</CardTitle>
+                <CardTitle>Direito Empresarial</CardTitle>
               </div>
             </CardHeader>
             <CardContent>
               <CardDescription>
-                Contract disputes, business formation, employment law, and
-                commercial litigation. Protecting your business interests at
-                every stage.
+                Disputas contratuais, constituição de empresas, direito
+                trabalhista e contencioso comercial. Protegendo seus interesses
+                comerciais em todas as etapas.
               </CardDescription>
             </CardContent>
           </Card>
@@ -63,13 +63,14 @@ export default function Services() {
                 <div className="p-2 bg-amber-100 rounded-lg">
                   <Home className="h-6 w-6 text-amber-600" />
                 </div>
-                <CardTitle>Real Estate</CardTitle>
+                <CardTitle>Imobiliária</CardTitle>
               </div>
             </CardHeader>
             <CardContent>
               <CardDescription>
-                Property transactions, title disputes, landlord-tenant issues,
-                and real estate litigation. Ensuring smooth property dealings.
+                Transações imobiliárias, disputas de títulos, questões entre
+                locador e inquilino e litígios imobiliários. Garantindo
+                negociações imobiliárias tranquilas.
               </CardDescription>
             </CardContent>
           </Card>
@@ -80,13 +81,13 @@ export default function Services() {
                 <div className="p-2 bg-amber-100 rounded-lg">
                   <Users className="h-6 w-6 text-amber-600" />
                 </div>
-                <CardTitle>Family Law</CardTitle>
+                <CardTitle>Direito da Família</CardTitle>
               </div>
             </CardHeader>
             <CardContent>
               <CardDescription>
-                Divorce, child custody, adoption, and domestic relations.
-                Compassionate representation during difficult times.
+                Divórcio, guarda de filhos, adoção e relações domésticas.
+                Representação compassiva em momentos difíceis.
               </CardDescription>
             </CardContent>
           </Card>
@@ -97,13 +98,14 @@ export default function Services() {
                 <div className="p-2 bg-amber-100 rounded-lg">
                   <Gavel className="h-6 w-6 text-amber-600" />
                 </div>
-                <CardTitle>Criminal Defense</CardTitle>
+                <CardTitle>Defesa Criminal</CardTitle>
               </div>
             </CardHeader>
             <CardContent>
               <CardDescription>
-                DUI/DWI, drug charges, assault, theft, and white-collar crimes.
-                Aggressive defense to protect your rights and freedom.
+                DUI/DWI, acusações de tráfico de drogas, agressão, roubo e
+                crimes de colarinho branco. Defesa agressiva para proteger seus
+                direitos e liberdade.
               </CardDescription>
             </CardContent>
           </Card>
@@ -114,13 +116,14 @@ export default function Services() {
                 <div className="p-2 bg-amber-100 rounded-lg">
                   <FileText className="h-6 w-6 text-amber-600" />
                 </div>
-                <CardTitle>Estate Planning</CardTitle>
+                <CardTitle>Planejamento Imobiliário</CardTitle>
               </div>
             </CardHeader>
             <CardContent>
               <CardDescription>
-                Wills, trusts, probate, and estate administration. Securing your
-                legacy and protecting your loved ones' future.
+                Testamentos, fundos fiduciários, inventário e administração
+                patrimonial. Garantindo seu legado e protegendo o futuro de seus
+                entes queridos.
               </CardDescription>
             </CardContent>
           </Card>
