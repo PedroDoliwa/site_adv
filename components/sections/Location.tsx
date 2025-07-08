@@ -7,10 +7,10 @@ export default function Location() {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold text-slate-900 mb-4">
-            Our Location
+            Nossa Localização
           </h2>
           <p className="text-xl text-slate-600">
-            Conveniently located in the heart of downtown
+            Convenientemente localizado no coração do centro da cidade/
           </p>
         </div>
 
@@ -20,7 +20,7 @@ export default function Location() {
               <CardHeader>
                 <CardTitle className="flex items-center space-x-2">
                   <MapPin className="h-5 w-5 text-amber-600" />
-                  <span>Office Address</span>
+                  <span>Endereço do escritório</span>
                 </CardTitle>
               </CardHeader>
               <CardContent className="space-y-4">
@@ -32,30 +32,34 @@ export default function Location() {
                 </div>
 
                 <div className="pt-4 border-t">
-                  <h4 className="font-semibold mb-2">Office Hours</h4>
+                  <h4 className="font-semibold mb-2">Horário comercial</h4>
                   <div className="space-y-1 text-sm">
                     <div className="flex justify-between">
-                      <span>Monday - Friday:</span>
-                      <span>8:00 AM - 6:00 PM</span>
+                      <span>Segunda - Sexta:</span>
+                      <span>08:00 - 18:00</span>
                     </div>
                     <div className="flex justify-between">
-                      <span>Saturday:</span>
-                      <span>9:00 AM - 2:00 PM</span>
+                      <span>Sábado:</span>
+                      <span>09:00 - 14:00</span>
                     </div>
                     <div className="flex justify-between">
-                      <span>Sunday:</span>
-                      <span>Emergency Only</span>
+                      <span>Domingo:</span>
+                      <span>Apenas Emergência</span>
                     </div>
                   </div>
                 </div>
 
                 <div className="pt-4 border-t">
-                  <h4 className="font-semibold mb-2">Parking & Access</h4>
+                  <h4 className="font-semibold mb-2">
+                    Estacionamento e acesso
+                  </h4>
                   <ul className="text-sm space-y-1">
-                    <li>• Free client parking available</li>
-                    <li>• Wheelchair accessible</li>
-                    <li>• Public transportation nearby</li>
-                    <li>• Visitor parking in building garage</li>
+                    <li>• Estacionamento gratuito para clientes disponível</li>
+                    <li>• Acessível a cadeiras de rodas</li>
+                    <li>• Transporte público nas proximidades</li>
+                    <li>
+                      • Estacionamento para visitantes na garagem do prédio
+                    </li>
                   </ul>
                 </div>
               </CardContent>
@@ -66,7 +70,7 @@ export default function Location() {
             <div className="bg-slate-200 rounded-lg h-96 flex items-center justify-center">
               <div className="text-center text-slate-600">
                 <MapPin className="h-12 w-12 mx-auto mb-4" />
-                <p>Interactive Map</p>
+                <p>Mapa interativo</p>
                 <p className="text-sm">1234 Legal Plaza, Suite 500</p>
               </div>
             </div>

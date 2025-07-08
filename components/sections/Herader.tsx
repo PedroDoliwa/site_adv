@@ -11,7 +11,7 @@ export default function Header() {
             <Scale className="h-8 w-8 text-amber-400" />
             <div>
               <h1 className="text-xl font-bold">Sterling & Associates</h1>
-              <p className="text-sm text-slate-300">Attorneys at Law</p>
+              <p className="text-sm text-slate-300">Advogados</p>
             </div>
           </div>
           <nav className="hidden md:flex space-x-6">
@@ -19,35 +19,35 @@ export default function Header() {
               href="#about"
               className="hover:text-amber-400 transition-colors"
             >
-              About
+              Sobre
             </Link>
             <Link
               href="#services"
               className="hover:text-amber-400 transition-colors"
             >
-              Services
+              Serviços
             </Link>
             <Link
               href="#benefits"
               className="hover:text-amber-400 transition-colors"
             >
-              Why Choose Us
+              Por que nos escolher{" "}
             </Link>
             <Link
               href="#location"
               className="hover:text-amber-400 transition-colors"
             >
-              Location
+              Localização
             </Link>
             <Link
               href="#contact"
               className="hover:text-amber-400 transition-colors"
             >
-              Contact
+              Contato
             </Link>
           </nav>
           <Button className="bg-amber-600 hover:bg-amber-700 text-white">
-            Free Consultation
+            Consulta Gratuita
           </Button>
         </div>
       </div>
