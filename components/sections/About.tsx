@@ -4,13 +4,14 @@ export default function About() {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold text-slate-900 mb-4">
-            Sterling & Associates
+            Missão e Valores
           </h2>
           <p className="text-xl text-slate-600 max-w-3xl mx-auto">
-            É um escritório de advocacia completo, dedicado a fornecer
-            representação jurídica excepcional em diversas áreas de atuação.
-            Combinamos expertise jurídica com atendimento personalizado para
-            alcançar os melhores resultados possíveis para nossos clientes.
+            Se dedicar a oferecer serviços jurídicos de excelência, pautados
+            pela ética, transparência e compromisso com resultados. <br />
+            Nosso propósito é compreender profundamente as necessidades de cada
+            cliente, oferecendo orientação estratégica, soluções acessíveis e
+            acompanhamento personalizado.
           </p>
         </div>
       </div>

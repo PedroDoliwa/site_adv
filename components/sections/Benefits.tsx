@@ -19,7 +19,7 @@ export default function Benefits() {
               <Award className="h-8 w-8 text-white" />
             </div>
             <h3 className="text-xl font-semibold mb-2">
-              +25 anos de experiência
+              +10 anos de experiência
             </h3>
             <p className="text-slate-600">
               Décadas de experiência jurídica combinada em diversas áreas de

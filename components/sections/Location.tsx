@@ -7,10 +7,10 @@ export default function Location() {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold text-slate-900 mb-4">
-            Nossa Localização
+            Localização{" "}
           </h2>
           <p className="text-xl text-slate-600">
-            Convenientemente localizado no coração do centro da cidade/
+            Visite nosso escritório para uma consulta pessoal
           </p>
         </div>
 
@@ -25,10 +25,9 @@ export default function Location() {
               </CardHeader>
               <CardContent className="space-y-4">
                 <div>
-                  <p className="font-semibold">Sterling & Associates</p>
-                  <p>1234 Legal Plaza, Suite 500</p>
-                  <p>Downtown District</p>
-                  <p>Metropolitan City, ST 12345</p>
+                  <p>Rua Francisco Teixeira, n°15 - Sala 04</p>
+                  <p>Torres - RS, Centro</p>
+                  <p>CEP: 95560-000</p>
                 </div>
 
                 <div className="pt-4 border-t">
@@ -36,31 +35,13 @@ export default function Location() {
                   <div className="space-y-1 text-sm">
                     <div className="flex justify-between">
                       <span>Segunda - Sexta:</span>
-                      <span>08:00 - 18:00</span>
+                      <span>09:00 - 18:30</span>
                     </div>
                     <div className="flex justify-between">
-                      <span>Sábado:</span>
-                      <span>09:00 - 14:00</span>
-                    </div>
-                    <div className="flex justify-between">
-                      <span>Domingo:</span>
+                      <span>Sábado e Domingo:</span>
                       <span>Apenas Emergência</span>
                     </div>
                   </div>
-                </div>
-
-                <div className="pt-4 border-t">
-                  <h4 className="font-semibold mb-2">
-                    Estacionamento e acesso
-                  </h4>
-                  <ul className="text-sm space-y-1">
-                    <li>• Estacionamento gratuito para clientes disponível</li>
-                    <li>• Acessível a cadeiras de rodas</li>
-                    <li>• Transporte público nas proximidades</li>
-                    <li>
-                      • Estacionamento para visitantes na garagem do prédio
-                    </li>
-                  </ul>
                 </div>
               </CardContent>
             </Card>

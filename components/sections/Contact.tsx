@@ -4,7 +4,7 @@ import { Button } from "../ui/button";
 
 export default function Contact() {
   return (
-    <section id="contact" className="py-16 bg-slate-900 text-white">
+    <section id="contact" className="py-16 bg-black text-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold mb-4">Entre em contato</h2>
@@ -26,7 +26,7 @@ export default function Contact() {
             </CardHeader>
             <CardContent>
               <p className="text-2xl font-bold text-amber-400 mb-2">
-                (555) 123-LEGAL
+                (51) 98028-0932
               </p>
               <p className="text-slate-300">Disponível 24/7 para emergências</p>
               <Button className="mt-4 bg-amber-600 hover:bg-amber-700 w-full">
@@ -63,6 +63,7 @@ export default function Contact() {
               </div>
             </CardHeader>
             <CardContent>
+              <p className="text-amber-400 mb-2">Seg - Sex / 09:00 ás 18:30</p>
               <p className="text-slate-300 mb-4">
                 Consulta inicial gratuita disponível
               </p>
