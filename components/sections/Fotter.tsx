@@ -1,6 +1,5 @@
 import Link from "next/link";
 import { Badge } from "../ui/badge";
-import { Scale } from "lucide-react";
 import Image from "next/image";
 import { services } from "@/lib/listaServises";
 
@@ -35,7 +34,7 @@ export default function Footer() {
             <ul className="space-y-2">
               {services.map((service, index) => (
                 <li key={index} className="text-slate-400">
-                    {service.title}
+                  {service.title}
                 </li>
               ))}
             </ul>
