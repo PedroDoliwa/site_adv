@@ -1,0 +1,17 @@
+
+OK Áreas de Atuação
+
+Ajusar Sobre
+Pq escolher 
+OK Localização - por mapa
+OK Contato - por link p telefone/whats/email
+preciso email da advocacia
+Footer - link rápidos (alterar nome)
+Hero - por foto, btn p whats
+Header - nomes menus, talvez tirar btn consula gratuita
+
+
+
+Final estilizar
+Animação cards
+Animação numeros nos beneficios

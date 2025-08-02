@@ -2,22 +2,6 @@ import { Button } from "../ui/button";
 import Link from "next/link";
 import Image from "next/image";
 
-/*
-OK Áreas de Atuação
-
-Ajusar Sobre
-Pq escolher 
-Localização - por mapa
-Contato - por link p telefone/whats/email
-Footer - link rápidos (alterar nome)
-Hero - por foto, btn p whats
-Header - nomes menus, talvez tirar btn consula gratuita
-
-Final estilizar
-Animação cards
-Animação numeros nos beneficios
-*/
-
 export default function Header() {
   return (
     <header className="border-b border-slate-800 bg-black text-white sticky top-0 z-50 ">
@@ -70,7 +54,7 @@ export default function Header() {
               Contato
             </Link>
           </nav>
-          <Button className="bg-amber-600 hover:bg-amber-700 text-white">
+          <Button className="bg-amber-600 hover:bg-amber-700 text-white hidden md:block">
             Consulta Gratuita
           </Button>
         </div>

@@ -2,6 +2,7 @@ import Link from "next/link";
 import { Badge } from "../ui/badge";
 import { Scale } from "lucide-react";
 import Image from "next/image";
+import { services } from "@/lib/listaServises";
 
 export default function Footer() {
   return (
@@ -31,13 +32,12 @@ export default function Footer() {
 
           <div>
             <h4 className="font-semibold mb-4">Áreas de Prática</h4>
-            <ul className="space-y-2 text-slate-400">
-              <li>Lesões Pessoais</li>
-              <li>Direito Empresarial</li>
-              <li>Imobiliária</li>
-              <li>Direito da Família</li>
-              <li>Defesa Criminal</li>
-              <li>Planejamento Imobiliário</li>
+            <ul className="space-y-2">
+              {services.map((service, index) => (
+                <li key={index} className="text-slate-400">
+                    {service.title}
+                </li>
+              ))}
             </ul>
           </div>
 
