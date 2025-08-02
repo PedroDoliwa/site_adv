@@ -6,7 +6,7 @@ export default function Benefits() {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold text-slate-900 mb-4">
-            Por que escolher Sterling & Associates{" "}
+            Compromisso e Resultados
           </h2>
           <p className="text-xl text-slate-600">
             Experimente a diferença que a representação jurídica dedicada faz{" "}
@@ -19,7 +19,7 @@ export default function Benefits() {
               <Award className="h-8 w-8 text-white" />
             </div>
             <h3 className="text-xl font-semibold mb-2">
-              +25 anos de experiência
+              +10 anos de experiência
             </h3>
             <p className="text-slate-600">
               Décadas de experiência jurídica combinada em diversas áreas de

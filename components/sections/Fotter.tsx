@@ -1,36 +1,43 @@
 import Link from "next/link";
 import { Badge } from "../ui/badge";
 import { Scale } from "lucide-react";
+import Image from "next/image";
+import { services } from "@/lib/listaServises";
 
 export default function Footer() {
   return (
-    <footer className="bg-slate-950 text-white py-12">
+    <footer className="border-t border-slate-800  bg-black text-white py-12">
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-4 gap-8">
           <div>
             <div className="flex items-center space-x-2 mb-4">
-              <Scale className="h-6 w-6 text-amber-400" />
-              <span className="text-xl font-bold">Sterling & Associates</span>
+              <Image
+                src="/images/logo.png"
+                alt="Logo"
+                width={40}
+                height={40}
+                className="w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 object-cover"
+              />{" "}
+              <span className="text-xl font-bold">Rossana Hertzog</span>
             </div>
             <p className="text-slate-400 mb-4">
               Fornecendo representação jurídica excepcional com integridade e
               dedicação.
             </p>
             <div className="flex space-x-2">
-              <Badge variant="secondary">AV Rated</Badge>
-              <Badge variant="secondary">Super Lawyers</Badge>
+              <Badge variant="secondary">Advocacia</Badge>
+              <Badge variant="secondary">Consultoria Jurídica</Badge>
             </div>
           </div>
 
           <div>
             <h4 className="font-semibold mb-4">Áreas de Prática</h4>
-            <ul className="space-y-2 text-slate-400">
-              <li>Lesões Pessoais</li>
-              <li>Direito Empresarial</li>
-              <li>Imobiliária</li>
-              <li>Direito da Família</li>
-              <li>Defesa Criminal</li>
-              <li>Planejamento Imobiliário</li>
+            <ul className="space-y-2">
+              {services.map((service, index) => (
+                <li key={index} className="text-slate-400">
+                    {service.title}
+                </li>
+              ))}
             </ul>
           </div>
 
@@ -68,9 +75,9 @@ export default function Footer() {
           <div>
             <h4 className="font-semibold mb-4">Informação de Contato</h4>
             <div className="space-y-2 text-slate-400">
-              <p>1234 Legal Plaza, Suite 500</p>
-              <p>Metropolitan City, ST 12345</p>
-              <p>(555) 123-LEGAL</p>
+              <p>R. Francisco Teixeira, n°15 - Sala 04</p>
+              <p>Centro, Torres - RS</p>
+              <p>(51) 98028-0932</p>
               <p>info@sterlinglaw.com</p>
             </div>
           </div>
@@ -78,8 +85,16 @@ export default function Footer() {
 
         <div className="border-t border-slate-800 mt-8 pt-8 text-center text-slate-400">
           <p>
-            &copy; {new Date().getFullYear()} Sterling & Associates. Todos
-            direitos reservados. | Attorney Advertising
+            &copy; {new Date().getFullYear()} Rossana Hertzog. Todos direitos
+            reservados. | Desenvolvido por {""}
+            <a
+              href="https://www.linkedin.com/in/pedrodoliwa/"
+              className="underline hover:text-ouro-claro"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Pedro Doliwa
+            </a>
           </p>
         </div>
       </div>
