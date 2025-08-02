@@ -37,9 +37,9 @@ export default function Header() {
             </Link>
             <Link
               href="#benefits"
-              className="hover:text-[#f1af09]transition-colors"
+              className="hover:text-[#f1af09] transition-colors"
             >
-              Por que nos escolher{" "}
+              Resultados
             </Link>
             <Link
               href="#location"
