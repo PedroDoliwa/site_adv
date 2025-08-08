@@ -1,4 +1,3 @@
-import { Button } from "../ui/button";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -54,9 +53,6 @@ export default function Header() {
               Contato
             </Link>
           </nav>
-          <Button className="bg-amber-600 hover:bg-amber-700 text-white hidden md:block">
-            Consulta Gratuita
-          </Button>
         </div>
       </div>
     </header>

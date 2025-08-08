@@ -1,6 +1,5 @@
 import Link from "next/link";
 import { Badge } from "../ui/badge";
-import { Scale } from "lucide-react";
 import Image from "next/image";
 import { services } from "@/lib/listaServises";
 

@@ -63,25 +63,6 @@ export default function Benefits() {
             </p>
           </div>
         </div>
-
-        <div className="mt-16 bg-white rounded-lg p-8 shadow-lg">
-          <div className="grid md:grid-cols-3 gap-8 text-center">
-            <div>
-              <div className="text-4xl font-bold text-amber-600 mb-2">500+</div>
-              <div className="text-slate-600">Casos vencidos</div>
-            </div>
-            <div>
-              <div className="text-4xl font-bold text-amber-600 mb-2">
-                R$50M+
-              </div>
-              <div className="text-slate-600">Recuperado para Clientes</div>
-            </div>
-            <div>
-              <div className="text-4xl font-bold text-amber-600 mb-2">98%</div>
-              <div className="text-slate-600">Satisfação do cliente</div>
-            </div>
-          </div>
-        </div>
       </div>
     </section>
   );

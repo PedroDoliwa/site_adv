@@ -10,8 +10,18 @@ Footer - link rápidos (alterar nome)
 Hero - por foto, btn p whats
 Header - nomes menus, talvez tirar btn consula gratuita
 
+Tirar 
+- resultados valores e estimativas
+- consultoria gratuita
+- card horario
+- card email 
+
+
+por
+- melhorar card telefone
+- campo escrever email e enviar p email
+- btn whats flutuante
 
 
 Final estilizar
 Animação cards
-Animação numeros nos beneficios
