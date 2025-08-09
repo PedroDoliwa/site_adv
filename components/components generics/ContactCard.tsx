@@ -30,14 +30,14 @@ export function ContactCard({
           <div className={`p-2 rounded-lg ${iconBg}`}>
             <Icon className="h-6 w-6 text-white" />
           </div>
-          <CardTitle className="text-white">{title}</CardTitle>
+          <CardTitle className="text-primary">{title}</CardTitle>
         </div>
       </CardHeader>
       <CardContent>
-        <p className="text-2xl font-bold text-amber-400 mb-2">{mainText}</p>
+        <p className="text-2xl font-bold text-primary mb-2">{mainText}</p>
         <p className="text-slate-300">{subText}</p>
         <Button
-          className="mt-4 bg-amber-600 hover:bg-amber-700 w-full cursor-pointer"
+          className="mt-4 w-full cursor-pointer"
           onClick={buttonAction}
         >
           {buttonText}

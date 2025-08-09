@@ -1,4 +1,3 @@
-import { Button } from "../ui/button";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -25,38 +24,35 @@ export default function Header() {
           <nav className="hidden md:flex space-x-6">
             <Link
               href="#about"
-              className="hover:text-[#f1af09] transition-colors"
+              className="hover:text-primary transition-colors"
             >
               Sobre
             </Link>
             <Link
               href="#services"
-              className="hover:text-[#f1af09] transition-colors"
+              className="hover:text-primary transition-colors"
             >
               Serviços
             </Link>
             <Link
               href="#benefits"
-              className="hover:text-[#f1af09] transition-colors"
+              className="hover:text-primary transition-colors"
             >
               Resultados
             </Link>
             <Link
               href="#location"
-              className="hover:text-[#f1af09] transition-colors"
+              className="hover:text-primary transition-colors"
             >
               Localização
             </Link>
             <Link
               href="#contact"
-              className="hover:text-[#f1af09] transition-colors"
+              className="hover:text-primary transition-colors"
             >
               Contato
             </Link>
           </nav>
-          <Button className="bg-amber-600 hover:bg-amber-700 text-white hidden md:block">
-            Consulta Gratuita
-          </Button>
         </div>
       </div>
     </header>

@@ -5,13 +5,25 @@ Ajusar Sobre
 Pq escolher 
 OK Localização - por mapa
 OK Contato - por link p telefone/whats/email
-preciso email da advocacia
+OK preciso email da advocacia
 Footer - link rápidos (alterar nome)
 Hero - por foto, btn p whats
-Header - nomes menus, talvez tirar btn consula gratuita
+Header - nomes menus, talvez tirar btn consula gratuita OK
+
+Tirar 
+- resultados valores e estimativas OK
+- consultoria gratuita OK
+- card horario OK
+- card email OK
 
 
+por
+- melhorar card telefone OK
+- campo escrever email e enviar p email OK
+- btn whats flutuante OK
+- arrumar Footer - areas de atendimento / links rapidos
 
-Final estilizar
-Animação cards
-Animação numeros nos beneficios
+
+Final 
+- estilizar OK
+- Animação

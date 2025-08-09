@@ -22,10 +22,10 @@ export function ServiceCard({
     <Card className="hover:shadow-lg transition-shadow">
       <CardHeader>
         <div className="flex items-center space-x-3">
-          <div className="p-2 bg-amber-100 rounded-lg">
-            <Icon className="h-6 w-6 text-amber-600" />
+          <div className="p-2 bg-secondary rounded-lg">
+            <Icon className="h-6 w-6 text-white" />
           </div>
-          <CardTitle>{title}</CardTitle>
+          <CardTitle className="text-black">{title}</CardTitle>
         </div>
       </CardHeader>
       <CardContent>
