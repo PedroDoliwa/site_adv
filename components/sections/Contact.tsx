@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { useState } from "react";
 import { validateContactForm } from "../../lib/emailValidation";
@@ -69,7 +69,8 @@ export default function Contact() {
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold mb-4">Entre em contato</h2>
           <p className="text-xl text-slate-300">
-            Pronto para discutir suas necessidades jurídicas? Estamos aqui para ajudar.
+            Pronto para discutir suas necessidades jurídicas? Estamos aqui para
+            ajudar.
           </p>
         </div>
 
@@ -100,6 +101,7 @@ export default function Contact() {
                 {statusMessage}
               </div>
             )}
+
 
             <form onSubmit={handleSubmit} className="flex flex-col gap-4">
               <input
