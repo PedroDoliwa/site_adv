@@ -1,12 +1,8 @@
 "use client"
 
-import { Mail, Phone } from "lucide-react";
-import { ContactCard } from "../components generics/ContactCard";
 import { useState } from "react";
 import { validateContactForm } from "../../lib/emailValidation";
-
-const messageWhats = encodeURIComponent("Olá, gostaria de saber mais sobre seus serviços.");
-const phone = "5551980280932";
+import { Mail, Phone } from "lucide-react";
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -67,7 +63,7 @@ export default function Contact() {
     }
   };
 
-  return (    
+  return (
     <section id="contact" className="py-16 bg-black text-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
@@ -77,82 +73,76 @@ export default function Contact() {
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-8 align-items-center justify-center">
-          <ContactCard
-            icon={Phone}
-            title="Ligue para nós"
-            mainText="(51) 98028-0932"
-            subText="Disponível 24/7 para emergências"
-            buttonText="Chamar no WhatsApp"
-            buttonAction={() => window.open(`https://wa.me/${phone}?text=${messageWhats}`, "_blank")}
-          />
-
-          <ContactCard
-            icon={Mail}
-            title="Nosso Email"
-            mainText="rossanahertzog@gmail.com"
-            subText="Nós respondemos em 24 horas"
-            buttonText="Envie um Email"
-            buttonAction={() => window.location.href = "mailto:rossanahertzog@gmail.com"}
-          />
-        </div>
-
-        {/* Formulário de contato */}
-        <div className="mt-12 max-w-xl mx-auto bg-slate-900 rounded-lg p-8 shadow-lg">
-          <h3 className="text-2xl font-semibold mb-4 text-white">Envie uma mensagem</h3>
-          
-          {/* Status Message */}
-          {submitStatus !== 'idle' && (
-            <div className={`mb-4 p-3 rounded ${
-              submitStatus === 'success' 
-                ? 'bg-green-600 text-white' 
-                : 'bg-red-600 text-white'
-            }`}>
-              {statusMessage}
+        <div className="max-w-xl mx-auto flex flex-col gap-8">
+          <div className="w-full">
+            <div className="flex flex-col md:flex-row md:justify-between justify-center items-center gap-2 md:gap-6">
+              <div className="flex items-center space-x-2">
+                <Phone className="h-5 w-5 text-primary" />
+                <p className="text-white text-lg ">Telefone: (51) 98028-0932</p>
+              </div>
+              <div className="flex items-center space-x-2">
+                <Mail className="h-5 w-5 text-primary" />
+                <p className="text-white text-lg">Email: rhadv.torres@gmail.com</p>
+              </div>
             </div>
-          )}
+          </div>
 
-          <form onSubmit={handleSubmit} className="flex flex-col gap-4">
-            <input
-              type="text"
-              name="name"
-              value={formData.name}
-              onChange={handleInputChange}
-              placeholder="Seu nome"
-              required
-              disabled={isSubmitting}
-              className="p-3 rounded bg-slate-800 text-white border border-slate-700 focus:outline-none focus:ring-2 focus:ring-blue-500 disabled:opacity-50"
-            />
-            <input
-              type="email"
-              name="email"
-              value={formData.email}
-              onChange={handleInputChange}
-              placeholder="Seu email"
-              required
-              disabled={isSubmitting}
-              className="p-3 rounded bg-slate-800 text-white border border-slate-700 focus:outline-none focus:ring-2 focus:ring-blue-500 disabled:opacity-50"
-            />
-            <textarea
-              name="message"
-              value={formData.message}
-              onChange={handleInputChange}
-              placeholder="Sua mensagem"
-              required
-              rows={5}
-              disabled={isSubmitting}
-              className="p-3 rounded bg-slate-800 text-white border border-slate-700 focus:outline-none focus:ring-2 focus:ring-blue-500 disabled:opacity-50"
-            />
-            <button
-              type="submit"
-              disabled={isSubmitting}
-              className="bg-blue-600 hover:bg-blue-700 disabled:bg-blue-400 text-white font-bold py-2 px-6 rounded transition-colors disabled:cursor-not-allowed"
-            >
-              {isSubmitting ? 'Enviando...' : 'Enviar'}
-            </button>
-          </form>
+          {/* Formulário de contato */}
+          <div className="bg-slate-900 rounded-lg p-6 shadow-lg w-full">
+            <h3 className="text-2xl font-semibold mb-4 text-white">Envie uma mensagem</h3>
+
+            {/* Status Message */}
+            {submitStatus !== 'idle' && (
+              <div className={`mb-4 p-3 rounded ${submitStatus === 'success'
+                ? 'bg-green-600 text-white'
+                : 'bg-red-600 text-white'
+                }`}>
+                {statusMessage}
+              </div>
+            )}
+
+            <form onSubmit={handleSubmit} className="flex flex-col gap-4">
+              <input
+                type="text"
+                name="name"
+                value={formData.name}
+                onChange={handleInputChange}
+                placeholder="Seu nome"
+                required
+                disabled={isSubmitting}
+                className="p-3 rounded bg-slate-800 text-white border border-slate-700 focus:outline-none focus:ring-2 focus:ring-blue-500 disabled:opacity-50"
+              />
+              <input
+                type="email"
+                name="email"
+                value={formData.email}
+                onChange={handleInputChange}
+                placeholder="Seu email"
+                required
+                disabled={isSubmitting}
+                className="p-3 rounded bg-slate-800 text-white border border-slate-700 focus:outline-none focus:ring-2 focus:ring-blue-500 disabled:opacity-50"
+              />
+              <textarea
+                name="message"
+                value={formData.message}
+                onChange={handleInputChange}
+                placeholder="Sua mensagem"
+                required
+                rows={5}
+                disabled={isSubmitting}
+                className="p-3 rounded bg-slate-800 text-white border border-slate-700 focus:outline-none focus:ring-2 focus:ring-blue-500 disabled:opacity-50"
+              />
+              <button
+                type="submit"
+                disabled={isSubmitting}
+                className="bg-accent hover:bg-primary text-black font-bold py-2 px-6 rounded transition-colors cursor-pointer"
+              >
+                {isSubmitting ? 'Enviando...' : 'Enviar'}
+              </button>
+            </form>
+          </div>
         </div>
       </div>
-    </section>
+    </section >
   );
 }

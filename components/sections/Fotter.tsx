@@ -5,10 +5,10 @@ import { services } from "@/lib/listaServises";
 
 export default function Footer() {
   return (
-    <footer className="border-t border-slate-800  bg-black text-white py-12">
+    <footer className="border-t border-slate-800 bg-black text-white py-12">
       <div className="container mx-auto px-4">
-        <div className="grid md:grid-cols-4 gap-8">
-          <div>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="min-w-0">
             <div className="flex items-center space-x-2 mb-4">
               <Image
                 src="/images/logo.png"
@@ -19,65 +19,65 @@ export default function Footer() {
               />{" "}
               <span className="text-xl font-bold">Rossana Hertzog</span>
             </div>
-            <p className="text-slate-400 mb-4">
+            <p className="text-slate-400 mb-4 break-words">
               Fornecendo representação jurídica excepcional com integridade e
               dedicação.
             </p>
-            <div className="flex space-x-2">
-              <Badge variant="secondary">Advocacia</Badge>
-              <Badge variant="secondary">Consultoria Jurídica</Badge>
+            <div className="flex flex-wrap gap-2">
+              <Badge variant="secondary" className="bg-secondary text-secondary-foreground">Advocacia</Badge>
+              <Badge variant="secondary" className="bg-secondary text-secondary-foreground">Consultoria Jurídica</Badge>
             </div>
           </div>
 
-          <div>
-            <h4 className="font-semibold mb-4">Áreas de Prática</h4>
+          <div className="min-w-0">
+            <h4 className="font-semibold mb-4 text-primary">Áreas de Prática</h4>
             <ul className="space-y-2">
               {services.map((service, index) => (
-                <li key={index} className="text-slate-400">
-                    {service.title}
+                <li key={index} className="text-slate-400 break-words">
+                  {service.title}
                 </li>
               ))}
             </ul>
           </div>
 
-          <div>
-            <h4 className="font-semibold mb-4">Quick Links</h4>
+          <div className="min-w-0">
+            <h4 className="font-semibold mb-4 text-primary">Quick Links</h4>
             <ul className="space-y-2 text-slate-400">
               <li>
-                <Link href="#about" className="hover:text-amber-400">
+                <Link href="#about" className="hover:text-amber-400 break-words">
                   Sobre nós
                 </Link>
               </li>
               <li>
-                <Link href="#services" className="hover:text-amber-400">
+                <Link href="#services" className="hover:text-amber-400 break-words">
                   Serviços
                 </Link>
               </li>
               <li>
-                <Link href="#contact" className="hover:text-amber-400">
+                <Link href="#contact" className="hover:text-amber-400 break-words">
                   Contato
                 </Link>
               </li>
               <li>
-                <Link href="#" className="hover:text-amber-400">
+                <Link href="#" className="hover:text-amber-400 break-words">
                   Portal do Cliente{" "}
                 </Link>
               </li>
               <li>
-                <Link href="#" className="hover:text-amber-400">
+                <Link href="#" className="hover:text-amber-400 break-words">
                   Recursos
                 </Link>
               </li>
             </ul>
           </div>
 
-          <div>
-            <h4 className="font-semibold mb-4">Informação de Contato</h4>
-            <div className="space-y-2 text-slate-400">
-              <p>R. Francisco Teixeira, n°15 - Sala 04</p>
-              <p>Centro, Torres - RS</p>
-              <p>(51) 98028-0932</p>
-              <p>info@sterlinglaw.com</p>
+          <div className="min-w-0">
+            <h4 className="font-semibold mb-4 text-primary">Informação de Contato</h4>
+            <div className="space-y-2 text-slate-400 break-words">
+              <p className="break-words">R. Francisco Teixeira, n°15 - Sala 04</p>
+              <p className="break-words">Centro, Torres - RS</p>
+              <p className="break-words">(51) 98028-0932</p>
+              <p className="break-words">rhadv.torres@gmail.com</p>
             </div>
           </div>
         </div>
@@ -88,7 +88,7 @@ export default function Footer() {
             reservados. | Desenvolvido por {""}
             <a
               href="https://www.linkedin.com/in/pedrodoliwa/"
-              className="underline hover:text-ouro-claro"
+              className="underline hover:text-primary"
               target="_blank"
               rel="noopener noreferrer"
             >

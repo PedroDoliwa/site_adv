@@ -27,9 +27,8 @@ export async function POST(request: NextRequest) {
 
     // Lista de emails de destino (pode ter múltiplos)
     const destinationEmails: string[] = [
-      process.env.TO_EMAIL || 'rossanahertzog@gmail.com', // Email principal
+      process.env.TO_EMAIL || 'rhadv.torres@gmail.com', // Email principal
       process.env.TO_EMAIL_2, // Email secundário (opcional)
-      process.env.TO_EMAIL_3  // Email terciário (opcional)
     ].filter((email): email is string => Boolean(email)); // Remove emails vazios e garante tipo string
 
     // Enviar email usando Resend
